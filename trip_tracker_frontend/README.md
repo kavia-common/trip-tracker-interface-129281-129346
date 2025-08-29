@@ -1,82 +1,29 @@
-# Lightweight React Template for KAVIA
+# Trip Tracker Frontend
 
-This project provides a minimal React template with a clean, modern UI and minimal dependencies.
+A modern, minimal travel expense tracker UI built with React and vanilla CSS.
 
-## Features
+## Key UI Features
+- Large hero with bold black heading "Trip Tracker" and icon
+- Floating search card with filters: trip name, total budget, daily budget clicker, start date, end date
+- Rounded cards with soft shadows in a responsive grid
+- Accent highlights in yellow, green, pink, and blue
+- Interactive budget tracking bar (spent vs total)
 
-- **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
-- **Modern UI**: Clean, responsive design with KAVIA brand styling
-- **Fast**: Minimal dependencies for quick loading times
-- **Simple**: Easy to understand and modify
+## Colors
+- Primary (bg): #FFFFFF
+- Secondary (headings): #000000
+- Accent (yellow): #FFD600
+- Additional accents: green #2ECC71, pink #FF6B9A, blue #4D9FFF
 
-## Getting Started
+## Icon
+Place the provided PNG icon at:
+- trip_tracker_frontend/public/assets/trip-icon.png
 
-In the project directory, you can run:
+If the icon is not present, the UI will still render but without the image. To add the asset:
+1. Copy the attachment file into the repo:
+   - Source: /home/kavia/workspace/code-generation/attachments/20250829_105408_Adobe_Express_-_file.png
+   - Destination: trip-tracker-interface-129281-129346/trip_tracker_frontend/public/assets/trip-icon.png
 
-### `npm start`
-
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-## Customization
-
-### Colors
-
-The main brand colors are defined as CSS variables in `src/App.css`:
-
-```css
-:root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
-}
-```
-
-### Components
-
-This template uses pure HTML/CSS components instead of a UI framework. You can find component styles in `src/App.css`. 
-
-Common components include:
-- Buttons (`.btn`, `.btn-large`)
-- Container (`.container`)
-- Navigation (`.navbar`)
-- Typography (`.title`, `.subtitle`, `.description`)
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Run
+- npm start
+- npm run build
